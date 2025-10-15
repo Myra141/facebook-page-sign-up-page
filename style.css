@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    background-color: #e9ebee;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.contenue{
+    padding: 10px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+.contenue p{
+    color: rgb(90, 85, 85);
+}
+.container{
+    background-color: white;
+    width: 40%;
+    margin-top: 50px;
+    padding: 7px;
+    height: 60vh;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 2;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: #1c1e21;
+    font-size: 30px;
+    margin: 5px;
+    
+}
+hr{
+   margin: 7px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+form{
+   margin: 5px;
+}
+input{
+    margin-bottom: 18px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+input[type=text]{
+    justify-content: space-between;
+}
+.mira, .ima{
+    width: 49%;
+}
+.card{
+    text-align: left;
+    padding-bottom: 5px;
+    
+}
+.mora{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #1c1e21;
+}
+select{
+    width: 30%;
+    padding: 5px;
+    color: #1c1e21;
+    outline: none;
+}
+.card, .head{
+    color: rgb(90, 85, 85);
+}
+.head{
+    text-align: left;
+    padding-top: 5px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.fin{
+    display: flex;
+    align-items: center;
+    background: red;
+
+}
+span{
+    align-items: center;
+}
