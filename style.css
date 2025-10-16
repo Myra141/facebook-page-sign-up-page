@@ -4,13 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    justify-content: center;
     background-color: #e9ebee;
-    height: 50vh;
     margin: auto;
     display: flex;
+    align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 .contenue{
     padding: 10px;
@@ -22,13 +20,14 @@ body{
 }
 .container{
     background-color: white;
-    width: 40%;
+    width: 100%;
+    max-width: 450px;
     margin-top: 50px;
+    overflow: scroll;
     padding: 7px;
-    height: 60vh;
+    align-items: center;
     text-align: center;
     border-radius: 10px;
-    z-index: 2;
 }
 .header{
     display: flex;
@@ -48,13 +47,19 @@ hr{
 form{
    margin: 5px;
 }
-input{
-    margin-bottom: 18px;
-    padding: 10px;
+#meme input{
+    margin-bottom: 20px;
+    padding: 15px;
     width: 100%;
+    border-radius: 4px;
     outline: none;
+    border:  solid 1px #060607;
+    font-size: 15px;
 }
-input[type=text]{
+#meme input:hover{
+    outline-color: #060607;
+}
+#meme input[type=text]{
     justify-content: space-between;
 }
 .mira, .ima{
@@ -62,39 +67,101 @@ input[type=text]{
 }
 .card{
     text-align: left;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     
 }
+.yac{
+    text-align: left;
+    padding-top: 20px;
+}
 .mora{
-    height: 30px;
+
     display: flex;
     justify-content: space-between;
     color: #1c1e21;
 }
 select{
     width: 30%;
-    padding: 5px;
+    padding: 15px;
     color: #1c1e21;
     outline: none;
+    font-size: 15px;
+    font-weight: 800;
 }
 .card, .head{
     color: rgb(90, 85, 85);
+    font-weight: 800;
 }
 .head{
     text-align: left;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 .main{
     display: flex;
+    padding-top: 5px;
+    border: 2px;
     justify-content: space-between;
-    background-color: aqua;
 }
 .fin{
     display: flex;
+    justify-content: center;
     align-items: center;
-    background: red;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 800;
+    gap: 5px;
+    margin-bottom: 20px;
+    border: solid 1px rgb(90, 85, 85);
+}
+button{
+    width: 100%;
+    margin-top: 30px;
+    background-color: #42b72a;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.yac a{
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: 300;
+}
+.yac a:hover{
+    text-decoration: underline;
+    border-bottom: #1877f2;
+}
+button:hover{
+    background-color: #b4cdaf;
+    cursor: pointer;
+    box-shadow: 2px 6px 2px rgb(86, 81, 81);
+}
+@media (max-width: 768px){
+    .mora{
+        flex-direction: column;
+    }
+    select{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .fin {
+        width: 50%;
+        justify-content: left;
+        padding-left: 10px;
+        
+    }
+}
+@media (max-width: 425px){
+    .container{
+        margin: 10px;
+    }
+}
 
-}
-span{
-    align-items: center;
-}
+
