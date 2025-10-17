@@ -7,7 +7,7 @@ body{
     background-color: #e9ebee;
     margin: auto;
     display: flex;
-    align-items: center;
+    
     justify-content: center;
 }
 .contenue{
@@ -50,13 +50,10 @@ form{
     margin-bottom: 20px;
     padding: 15px;
     width: 100%;
-    border-radius: 4px;
-    outline: none;
+    border-radius: 5px;
+    outline-color: #060607;
     border:  solid 1px #060607;
     font-size: 15px;
-}
-#meme input:hover{
-    border: solid 2px #060607;
 }
 #meme input[type=text]{
     justify-content: space-between;
@@ -77,16 +74,15 @@ form{
     justify-content: space-between;
     color: #1c1e21;
 }
-select:hover{
-    border: solid 2px #060607;
-}
 select{
     width: 30%;
     padding: 15px;
     color: #1c1e21;
-    outline: none;
     font-size: 15px;
     font-weight: 800;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.08);
+    outline-color: #060607;
 }
 .card, .head{
     color: rgb(90, 85, 85);
@@ -109,16 +105,12 @@ select{
     border-radius: 4px;
     justify-content: space-evenly;
     width: 30%;
-    background-color: #f4f2f2;
     height: 50px;
     font-size: 15px;
     font-weight: 800;
     gap: 5px;
     margin-bottom: 20px;
     border: solid 1px rgb(90, 85, 85);
-}
-.fin:hover{
-     border: solid 2px #060607;
 }
 button{
     width: 100%;
@@ -140,7 +132,7 @@ button{
     border-bottom: #1877f2;
 }
 button:hover{
-    background-color: #b4cdaf;
+    background-color: #5dad4b;
     cursor: pointer;
     box-shadow: 2px 6px 2px rgb(86, 81, 81);
 }
