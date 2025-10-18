@@ -37,5 +37,9 @@ Ce projet permet de s'entraîner à l'intégration web et de se familiariser ave
 - font-familly: la police
 - text-decoration: permet de stylisé un lien
 
+### Objectif du travaille 
+Cette exercice ma permit de comprendre comment faire une page de contact et manupiler le contenue juste avec HTML CSS.
+Bien avec des difficulté rencontré je pu le faire de ma manier
+
 
 
